@@ -16,6 +16,24 @@
 		6F4914B72741822D002F7D1F /* JeniousPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4914B62741822D002F7D1F /* JeniousPOCTests.swift */; };
 		6F4914C12741822D002F7D1F /* JeniousPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4914C02741822D002F7D1F /* JeniousPOCUITests.swift */; };
 		6F4914C32741822D002F7D1F /* JeniousPOCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4914C22741822D002F7D1F /* JeniousPOCUITestsLaunchTests.swift */; };
+		6F9E9D5B2742C6660009D098 /* JeniusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E9D5A2742C6660009D098 /* JeniusButton.swift */; };
+		6F9E9D5D2742D4610009D098 /* ViewFactory+PreLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E9D5C2742D4610009D098 /* ViewFactory+PreLogin.swift */; };
+		6F9E9D5F2742D7850009D098 /* LoginViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E9D5E2742D7850009D098 /* LoginViewTest.swift */; };
+		6F9E9D602742D8BF0009D098 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA8702741C19600850EA5 /* Store.swift */; };
+		6F9E9D62274333A60009D098 /* AuthenticationSerices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9E9D61274333A60009D098 /* AuthenticationSerices.swift */; };
+		6FDDA8712741C19600850EA5 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA8702741C19600850EA5 /* Store.swift */; };
+		6FDDA8762741C49D00850EA5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA8752741C49D00850EA5 /* LoginView.swift */; };
+		6FDDA87B2741E39600850EA5 /* LoginViewRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA87A2741E39600850EA5 /* LoginViewRedux.swift */; };
+		6FDDA87D2741E44600850EA5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA87C2741E44600850EA5 /* ViewModel.swift */; };
+		6FDDA87F2741E45E00850EA5 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA87E2741E45E00850EA5 /* Actions.swift */; };
+		6FDDA8812741E47700850EA5 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA8802741E47700850EA5 /* Reducer.swift */; };
+		6FDDA8872741E54100850EA5 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA8862741E54100850EA5 /* AppCoordinator.swift */; };
+		6FDDA88D2741E5D100850EA5 /* ViewFactory+PostLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA88C2741E5D100850EA5 /* ViewFactory+PostLogin.swift */; };
+		6FDDA8902741F89000850EA5 /* RegistrationRedux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA88F2741F89000850EA5 /* RegistrationRedux.swift */; };
+		6FDDA8942741F8B100850EA5 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA8932741F8B100850EA5 /* RegistrationView.swift */; };
+		6FDDA8972741FE7000850EA5 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA8962741FE7000850EA5 /* MainCoordinator.swift */; };
+		6FDDA8992741FE8800850EA5 /* PreLoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA8982741FE8800850EA5 /* PreLoginCoordinator.swift */; };
+		6FDDA89B274200EF00850EA5 /* PostLoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDA89A274200EF00850EA5 /* PostLoginCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,23 @@
 		6F4914BC2741822D002F7D1F /* JeniousPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeniousPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4914C02741822D002F7D1F /* JeniousPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeniousPOCUITests.swift; sourceTree = "<group>"; };
 		6F4914C22741822D002F7D1F /* JeniousPOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeniousPOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F9E9D5A2742C6660009D098 /* JeniusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JeniusButton.swift; sourceTree = "<group>"; };
+		6F9E9D5C2742D4610009D098 /* ViewFactory+PreLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewFactory+PreLogin.swift"; sourceTree = "<group>"; };
+		6F9E9D5E2742D7850009D098 /* LoginViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewTest.swift; sourceTree = "<group>"; };
+		6F9E9D61274333A60009D098 /* AuthenticationSerices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSerices.swift; sourceTree = "<group>"; };
+		6FDDA8702741C19600850EA5 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		6FDDA8752741C49D00850EA5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6FDDA87A2741E39600850EA5 /* LoginViewRedux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewRedux.swift; sourceTree = "<group>"; };
+		6FDDA87C2741E44600850EA5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6FDDA87E2741E45E00850EA5 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		6FDDA8802741E47700850EA5 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		6FDDA8862741E54100850EA5 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6FDDA88C2741E5D100850EA5 /* ViewFactory+PostLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewFactory+PostLogin.swift"; sourceTree = "<group>"; };
+		6FDDA88F2741F89000850EA5 /* RegistrationRedux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRedux.swift; sourceTree = "<group>"; };
+		6FDDA8932741F8B100850EA5 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		6FDDA8962741FE7000850EA5 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		6FDDA8982741FE8800850EA5 /* PreLoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoginCoordinator.swift; sourceTree = "<group>"; };
+		6FDDA89A274200EF00850EA5 /* PostLoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostLoginCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				6F49149E2741822C002F7D1F /* JeniousPOC */,
-				6F4914B52741822D002F7D1F /* JeniousPOCTests */,
 				6F4914BF2741822D002F7D1F /* JeniousPOCUITests */,
 				6F49149D2741822C002F7D1F /* Products */,
 			);
@@ -99,6 +133,13 @@
 		6F49149E2741822C002F7D1F /* JeniousPOC */ = {
 			isa = PBXGroup;
 			children = (
+				6FDDA8722741C32100850EA5 /* AppPages */,
+				6FDDA8952741FE3B00850EA5 /* Coordinators */,
+				6FDDA8842741E4D100850EA5 /* Components */,
+				6FDDA8832741E4BA00850EA5 /* Models */,
+				6FDDA8732741C38B00850EA5 /* ReduxFramework */,
+				6FDDA8852741E51400850EA5 /* Resources */,
+				6FDDA8822741E4AE00850EA5 /* Services */,
 				6F49149F2741822C002F7D1F /* AppDelegate.swift */,
 				6F4914A12741822C002F7D1F /* SceneDelegate.swift */,
 				6F4914A32741822C002F7D1F /* ViewController.swift */,
@@ -106,6 +147,7 @@
 				6F4914A82741822D002F7D1F /* Assets.xcassets */,
 				6F4914AA2741822D002F7D1F /* LaunchScreen.storyboard */,
 				6F4914AD2741822D002F7D1F /* Info.plist */,
+				6F4914B52741822D002F7D1F /* JeniousPOCTests */,
 			);
 			path = JeniousPOC;
 			sourceTree = "<group>";
@@ -114,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				6F4914B62741822D002F7D1F /* JeniousPOCTests.swift */,
+				6F9E9D5E2742D7850009D098 /* LoginViewTest.swift */,
 			);
 			path = JeniousPOCTests;
 			sourceTree = "<group>";
@@ -125,6 +168,103 @@
 				6F4914C22741822D002F7D1F /* JeniousPOCUITestsLaunchTests.swift */,
 			);
 			path = JeniousPOCUITests;
+			sourceTree = "<group>";
+		};
+		6FDDA8722741C32100850EA5 /* AppPages */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDA8882741E57F00850EA5 /* PreLogin */,
+				6FDDA8892741E58A00850EA5 /* PostLogin */,
+			);
+			path = AppPages;
+			sourceTree = "<group>";
+		};
+		6FDDA8732741C38B00850EA5 /* ReduxFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDA8702741C19600850EA5 /* Store.swift */,
+				6FDDA87C2741E44600850EA5 /* ViewModel.swift */,
+				6FDDA87E2741E45E00850EA5 /* Actions.swift */,
+				6FDDA8802741E47700850EA5 /* Reducer.swift */,
+			);
+			path = ReduxFramework;
+			sourceTree = "<group>";
+		};
+		6FDDA8792741E37C00850EA5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDA8752741C49D00850EA5 /* LoginView.swift */,
+				6FDDA87A2741E39600850EA5 /* LoginViewRedux.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6FDDA8822741E4AE00850EA5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E9D61274333A60009D098 /* AuthenticationSerices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6FDDA8832741E4BA00850EA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FDDA8842741E4D100850EA5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6F9E9D5A2742C6660009D098 /* JeniusButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6FDDA8852741E51400850EA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6FDDA8882741E57F00850EA5 /* PreLogin */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDA88E2741F18C00850EA5 /* Registration */,
+				6FDDA8792741E37C00850EA5 /* Login */,
+				6F9E9D5C2742D4610009D098 /* ViewFactory+PreLogin.swift */,
+			);
+			path = PreLogin;
+			sourceTree = "<group>";
+		};
+		6FDDA8892741E58A00850EA5 /* PostLogin */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDA88C2741E5D100850EA5 /* ViewFactory+PostLogin.swift */,
+			);
+			path = PostLogin;
+			sourceTree = "<group>";
+		};
+		6FDDA88E2741F18C00850EA5 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDA88F2741F89000850EA5 /* RegistrationRedux.swift */,
+				6FDDA8932741F8B100850EA5 /* RegistrationView.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		6FDDA8952741FE3B00850EA5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				6FDDA8862741E54100850EA5 /* AppCoordinator.swift */,
+				6FDDA8962741FE7000850EA5 /* MainCoordinator.swift */,
+				6FDDA8982741FE8800850EA5 /* PreLoginCoordinator.swift */,
+				6FDDA89A274200EF00850EA5 /* PostLoginCoordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +398,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FDDA8872741E54100850EA5 /* AppCoordinator.swift in Sources */,
 				6F4914A42741822C002F7D1F /* ViewController.swift in Sources */,
+				6F9E9D5B2742C6660009D098 /* JeniusButton.swift in Sources */,
+				6FDDA87B2741E39600850EA5 /* LoginViewRedux.swift in Sources */,
+				6FDDA8942741F8B100850EA5 /* RegistrationView.swift in Sources */,
+				6FDDA8712741C19600850EA5 /* Store.swift in Sources */,
+				6FDDA89B274200EF00850EA5 /* PostLoginCoordinator.swift in Sources */,
+				6FDDA88D2741E5D100850EA5 /* ViewFactory+PostLogin.swift in Sources */,
 				6F4914A02741822C002F7D1F /* AppDelegate.swift in Sources */,
+				6FDDA8762741C49D00850EA5 /* LoginView.swift in Sources */,
+				6FDDA8992741FE8800850EA5 /* PreLoginCoordinator.swift in Sources */,
+				6FDDA87F2741E45E00850EA5 /* Actions.swift in Sources */,
+				6F9E9D62274333A60009D098 /* AuthenticationSerices.swift in Sources */,
+				6FDDA87D2741E44600850EA5 /* ViewModel.swift in Sources */,
+				6FDDA8902741F89000850EA5 /* RegistrationRedux.swift in Sources */,
+				6FDDA8812741E47700850EA5 /* Reducer.swift in Sources */,
+				6F9E9D5D2742D4610009D098 /* ViewFactory+PreLogin.swift in Sources */,
 				6F4914A22741822C002F7D1F /* SceneDelegate.swift in Sources */,
+				6FDDA8972741FE7000850EA5 /* MainCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +424,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9E9D602742D8BF0009D098 /* Store.swift in Sources */,
+				6F9E9D5F2742D7850009D098 /* LoginViewTest.swift in Sources */,
 				6F4914B72741822D002F7D1F /* JeniousPOCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +610,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manubank.JeniousPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manubank.JeniusPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,7 +638,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.manubank.JeniousPOC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manubank.JeniusPOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
